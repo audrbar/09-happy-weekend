@@ -8,7 +8,7 @@
 # 09-happy-weekend
 _Website design project_
 <br>
-![Alt text](./image/happy-weekend1.png)
+![Alt text](./images/happy-weekend1.png)
 <br>
 ## 🌟 About
 
@@ -16,7 +16,7 @@ This project is for educational porpuses only, HTML5 and CSS testing. Pull reque
 
 Site published at: https://audrbar.github.io/09-happy-weekend/
 
-Design: [HAPPY WEEKEND](./image/happy-weekend.png)
+Design: [HAPPY WEEKEND](./images/happy-weekend.png)
 
 ## 🎯 Project features/goals
 
