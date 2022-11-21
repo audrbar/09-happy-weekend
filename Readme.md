@@ -8,15 +8,15 @@
 # 09-happy-weekend
 _Website design project_
 <br>
-![Alt text](./image/scherlok.jpg)
+![Alt text](./image/happy-weekend1.png)
 <br>
 ## 🌟 About
 
 This project is for educational porpuses only, HTML5 and CSS testing. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://audrbar.github.io/08-scherlok/
+Site published at: https://audrbar.github.io/09-happy-weekend/
 
-Design: [UFO](./img/design.png)
+Design: [HAPPY WEEKEND](./image/happy-weekend.png)
 
 ## 🎯 Project features/goals
 
@@ -46,7 +46,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/audrbar/08-scherlok.git
+    git clone https://github.com/audrbar/09-happy-weekend.git
     ```
 2. Install NPM packages
     ```sh
