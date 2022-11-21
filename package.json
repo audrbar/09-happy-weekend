@@ -7,8 +7,8 @@
     "dev": "dead-server --host=localhost --port=4109",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["html", "weekend"],
+  "author": "audrbar",
   "license": "ISC",
   "devDependencies": {
     "dead-server": "^1.0.9"
