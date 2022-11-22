@@ -13,12 +13,12 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <style>
+        body {}
         header {
             display: inline-block;
             width: 800px;
             margin-left: calc(50% - 400px);
             margin-top: 20px;
-            background-color: antiquewhite;
         }
         header>img {
             width: 60px;
@@ -37,13 +37,15 @@
         }
         nav>a:first-child {
             margin-left: 0px;
+            border: 1px solid #3F4371;
+            border-radius: 4px;
+            padding: 2px;
         }
         main {
             display: inline-block;
             width: 800px;
             margin-left: calc(50% - 400px);
-            margin-top: 20px;
-            background-color: antiquewhite;
+            margin-top: 70px;
         }
         main>img {
             width: 60%;
@@ -51,8 +53,33 @@
         }
         main>div {
             width: 35%;
-            background-color: brown;
+            margin-top: 50px;
+            font-family: Tahoma;
             float: left;
+        }
+        h1 {
+            color: #3F4371;
+            text-transform: uppercase;
+            font-size: 46px;
+            margin: 2px;
+        }
+        h2 {
+            color: #3F4371;
+            text-transform: uppercase;
+            font-size: 36px;
+            margin: 2px;
+        }
+        p {
+            color: rgb(144, 144, 144);
+            margin-bottom: 60px;
+        }
+        div>a {
+            text-decoration: none;
+            color: white;
+            padding: 4px 32px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            background-color: #3F4371;
         }
     </style>
 </head>
@@ -69,7 +96,10 @@
     </header>
     <main>
         <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quos delectus. Esse iusto quae incidunt autem sapiente, nam voluptates ea assumenda architecto vitae quia distinctio recusandae, aut provident aliquid minima?
+            <h1>A happy</h1>
+            <h2>weekend</h2>
+            <p>The people who get on in this world are the people who get up and look for circumstances they want, and if they cannot find them, make them.</p>
+            <a href="#">more</a>
         </div>
         <img src="./images/happy-weekend1.png" alt="Weekend">
     </main>
