@@ -1,0 +1,121 @@
+:root {
+    --main-color: #3F4371;
+    --width: 1000px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-header {
+    display: inline-block;
+    width: var(--width);
+    margin-top: 20px;
+    margin-left: calc(50% - 400px);
+}
+.logo {
+    height: 40px;
+    float: left;
+}
+.main-nav {
+    margin-top: 1px;
+    float: right;
+    text-decoration: none;
+}
+.main-nav > .link {
+    display: inline-block;
+    padding: 0.3em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    margin-left: 0.5em;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1em;
+    text-decoration: none;
+    color: var(--main-color);
+    border: 0.1em solid transparent;
+    border-radius: 0.2em;
+    transition: all 0.5s;
+}
+.main-nav > .link:first-child {
+    margin-left: 0px;
+    border-color: var(--main-color);
+}
+.main-nav> .link:hover,
+.main-nav> .link.active {
+    border-color: var(--main-color);
+}
+.main-content {
+    display: inline-block;
+    width: var(--width);
+    margin-top: 80px;
+    margin-left: calc((100% - var(--width)) / 2);
+}
+.left-column {
+    width: 35%;
+    margin-top: 50px;
+    float: left;
+}
+main>div {
+    width: 35%;
+    margin-top: 50px;
+    font-family: Tahoma;
+    float: left;
+}
+.main-title {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 46px;
+    margin: 0;
+}
+.main-title > span {
+    font-size: 36px;
+}
+.description {
+    font-size: 18px;
+    line-height: 1,3em;
+    letter-spacing: 0.05em;
+    word-spacing: 0.3em;
+    color: rgb(144, 144, 144);
+}
+.btn {
+    display: inline-block;
+    padding: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 0.3em;
+    box-shadow: 0px 0.5em 0.2em -0.45em #888;
+}
+.btn:hover {
+    box-shadow: 0px 0.6em 0.4em -0.45em #555;
+    transition: all 1s;
+}
+.socials {
+    margin-top: 50px;
+}
+.socials> .icon {
+    width: 2em;
+    height: 2em;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    text-decoration: none;
+    line-height: 2em;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    background-color: var(--main-color);
+    color: #fff;
+    transition: all 0.5s;
+}
+.socials> .icon:hover {
+    box-shadow: 0px 0.6em 0.4em -0.45em #777;
+}
+.right-column {
+    width: 60%;
+    float: right;
+}

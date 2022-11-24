@@ -12,142 +12,32 @@
     <link rel="manifest" href="./favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        header {
-            display: inline-block;
-            width: 800px;
-            margin-left: calc(50% - 400px);
-            margin-top: 20px;
-        }
-        header>img {
-            width: 100px;
-            float: left;
-        }
-        header>nav {
-            margin-top: 1px;
-            float: right;
-            text-decoration: none;
-        }
-        nav>a {
-            display: inline-block;
-            padding: 0.3em;
-            padding-left: 0.7em;
-            padding-right: 0.7em;
-            margin-left: 0.5em;
-            font-family: Tahoma;
-            font-size: 18px;
-            line-height: 1em;
-            text-decoration: none;
-            color: #3F4371;
-            border: 0.1em solid transparent;
-            border-radius: 0.2em;
-            transition: all 0.5s;
-        }
-        nav>a:first-child {
-            margin-left: 0px;
-            border-color: #3F4371;
-        }
-        nav>a:hover {
-            border-color: #3F4371;
-        }
-        nav>a:active {
-            border-color: #3F4371;
-        }
-        main {
-            display: inline-block;
-            width: 800px;
-            margin-left: calc((100% - 800px) / 2);
-            margin-top: 70px;
-        }
-        main>img {
-            width: 60%;
-            float: right;
-        }
-        main>div {
-            width: 35%;
-            margin-top: 50px;
-            font-family: Tahoma;
-            float: left;
-        }
-        main>div {
-            width: 35%;
-            margin-top: 50px;
-            font-family: Tahoma;
-            float: left;
-        }
-        h1 {
-            color: #3F4371;
-            text-transform: uppercase;
-            font-size: 46px;
-            margin: 0;
-        }
-        h1>span {
-            font-size: 36px;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1,3em;
-            letter-spacing: 0.05em;
-            word-spacing: 0.3em;
-            color: rgb(144, 144, 144);
-        }
-        main>div>a {
-            display: inline-block;
-            padding: 0,5em;
-            padding-left: 3em;
-            padding-right: 3em;
-            font-size: 20px;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: #fff;
-            background-color: #3F4371;
-            border-radius: 0.3em;
-            box-shadow: 0px 0.5em 0.2em -0.45em #888;
-        }
-        main>div>a:hover {
-            box-shadow: 0px 0.6em 0.4em -0.45em #555;
-            transition: all 1s;
-        }
-        main>div>div {
-            margin-top: 50px;
-        }
-        main>div>div>a {
-            margin-top: 20px;
-        }
-        i {
-            font-size: 120px;
-            color: #3F4371;
-            margin-right: 35px;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>
-        <img src="./images/logo.png" alt="logo">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Project</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Contact</a>
+    <header class="main-header">
+        <img class="logo" src="./images/logo.png" alt="logo">
+        <nav class="main-nav">
+            <a class="link" href="#">Home</a>
+            <a class="link" href="#">Project</a>
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Service</a>
+            <a class="link" href="#">Contact</a>
         </nav>
     </header>
-    <main>
-        <div>
-            <h1>A happy <span>weekend</span></h1>
-            <p>The people who get on in this world are the people who get up and look for circumstances they want, and if they cannot find them, make them.</p>
-            <a href="#">more</a>
-            <div>
-                <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+    <main class="main-content">
+        <div class="left-column">
+            <h1 class="main-title">A happy <span>weekend</span></h1>
+            <p class="description">The people who get on in this world are the people who get up and look for circumstances they want, and if they cannot find them, make them.</p>
+            <a class="btn" href="#">more</a>
+            <div class="socials">
+                <a class="icon fa fa-instagram" href="#"></a>
+                <a class="icon fa fa-twitter" href="#"></a>
+                <a class="icon fa fa-facebook" href="#"></a>
             </div>
         </div>
-        <img src="./images/happy-weekend1.png" alt="Weekend">
+        <img class="right-column" src="./images/happy-weekend1.png" alt="Weekend">
     </main>
 </body>
 </html>
